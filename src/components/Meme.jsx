@@ -132,7 +132,7 @@ const Meme = () => {
           <input type="text" id="bottomToastInput" placeholder="bottom text" onChange={editToast}></input>
         </span>
         <button id="hide" onClick={hide}>
-        <span class="material-symbols-outlined">done</span>
+        X
         </button>
         <center>{toastMeme}</center>
         <center>
